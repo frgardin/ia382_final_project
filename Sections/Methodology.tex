@@ -1,7 +1,7 @@
 % ---------------------------------
 \section{Methodology}
 
-This section documents the complete methodology for the four-tool pipeline, including the exact prompts, configurations, and execution parameters used at each stage. The goal is to ensure full reproducibility and transparency in accordance with Prasad's emphasis on prompt engineering as an engineering discipline.
+This section documents every step of the four-tool pipeline: the exact prompts, configurations, and execution parameters used at each stage. The goal is reproducibility and transparency. Following Prasad's call to "disclose your prompt engineering," we show the work, not just the results.
 
 \subsection{Phase 1: Perplexity (Research)}
 
@@ -29,6 +29,13 @@ The following queries were executed sequentially on Perplexity (https://www.perp
 
 \subsubsection{Output Summary}
 Perplexity returned structured results including source citations, key definitions, and regulatory text excerpts. Approximate output: 15-20 citations covering AI privacy frameworks, real cases (Hong Kong deepfake fraud, patient data leaks), and technical mechanisms (GDPR Article 32, differential privacy algorithms).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/perplexity_search.png}
+    \caption{Perplexity search interface showing query and cited results for AI privacy risks}
+    \label{fig:perplexity}
+\end{figure}
 
 ---
 
@@ -62,7 +69,14 @@ Take the research findings from Perplexity and synthesize them into a comprehens
 \end{framed}
 
 \subsubsection{Execution Notes}
-The Claude API call was made via the Claude.ai web interface with the parameters above. The response was generated in approximately 45 seconds and produced a comprehensive synthesis of privacy in AI systems spanning 1800+ words. The output served as the primary knowledge artifact for subsequent refinement and presentation stages.
+Claude generated the response in 45 seconds via the Claude.ai web interface. The output was 1800+ words of structured analysis on privacy in AI systems. This synthesis fed into both the refinement and presentation stages.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/claude_api.png}
+    \caption{Claude API response to the synthesis prompt, showing structured article output}
+    \label{fig:claude_api}
+\end{figure}
 
 ---
 
@@ -98,6 +112,13 @@ QuillBot produced three alternative versions:
 
 \subsubsection{Limitations Encountered}
 The free tier of QuillBot imposes a 125-word limit per paraphrase, necessitating multiple passes for longer text. Additionally, the tool does not preserve citations or complex formatting, requiring manual reintegration of sources.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/quillbot_comparison.png}
+    \caption{QuillBot paraphraser in Standard mode showing the rewritten paragraph}
+    \label{fig:quillbot}
+\end{figure}
 
 ---
 
@@ -135,7 +156,14 @@ SlidesAI.io processed the input and generated a 9-slide presentation with:
     \item Conclusion slide (summary and key takeaways)
 \end{itemize}
 
-The tool automatically selected relevant images and adjusted text sizing for readability. No manual design intervention was required, though customization options were available.
+SlidesAI.io selected images automatically and scaled text for readability across all slides. No manual design work was needed. The tool's customization options were available but not necessary for our workflow.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/slidesai_output.png}
+    \caption{SlidesAI.io generated slide deck overview (9 slides)}
+    \label{fig:slidesai}
+\end{figure}
 
 ---
 

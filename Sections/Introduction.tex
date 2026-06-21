@@ -23,11 +23,34 @@ The pipeline works in four stages:
 
 \begin{enumerate}
     \item \textbf{Perplexity} (Research): Gather cited information on AI privacy risks, regulatory frameworks, and real-world cases.
-    \item \textbf{Claude API} (Synthesis): Analyze the seminar content and research findings, then generate a comprehensive article on privacy mechanisms, compliance challenges, and technical safeguards.
+    \item \textbf{Claude API} (Synthesis): Analyze the seminar content and research findings, then generate an article on privacy mechanisms, compliance challenges, and technical safeguards.
     \item \textbf{QuillBot} (Refinement): Rewrite content in different styles to see how tone and wording affect clarity.
     \item \textbf{SlidesAI.io} (Presentation): Turn the curated content into a slide deck.
 \end{enumerate}
 
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[
+        stage/.style={rectangle, draw=black!40, rounded corners=6pt, minimum width=4.5cm, minimum height=0.7cm, text centered, font=\small, line width=1.2pt},
+        perp/.style={stage, fill=blue!12, draw=blue!60},
+        claude/.style={stage, fill=purple!12, draw=purple!60},
+        quill/.style={stage, fill=green!12, draw=green!60},
+        slides/.style={stage, fill=orange!12, draw=orange!60},
+        arrow/.style={->, very thick, draw=black!50}
+    ]
+        \node[perp] (perp) {\textbf{Perplexity} (Research) — Gather cited information};
+        \node[claude, below of=perp, node distance=1.2cm] (claude) {\textbf{Claude API} (Synthesis) — Generate article};
+        \node[quill, below of=claude, node distance=1.2cm] (quill) {\textbf{QuillBot} (Refinement) — Compare styles};
+        \node[slides, below of=quill, node distance=1.2cm] (slides) {\textbf{SlidesAI.io} (Presentation) — Create slides};
+
+        \draw[arrow] (perp) -- (claude);
+        \draw[arrow] (claude) -- (quill);
+        \draw[arrow] (quill) -- (slides);
+    \end{tikzpicture}
+    \caption{The four-stage pipeline: Perplexity (research) → Claude API (synthesis) → QuillBot (refinement) → SlidesAI.io (presentation)}
+    \label{fig:pipeline}
+\end{figure}
+
 \subsection{Document Structure}
 
-Section 2 covers the detailed prompts, settings, and execution for each tool. Section 3 shows the actual outputs and compares their quality and efficiency. Section 4 concludes with what was learned and connects back to Prasad's themes: transparency, governance, and responsible human-AI collaboration.
+Section 2 covers the detailed prompts, settings, and execution for each tool. Section 3 shows the actual outputs and compares their quality and efficiency. Section 4 concludes with what was learned and connects back to Prasad's themes: transparency and governance in human-AI collaboration.
