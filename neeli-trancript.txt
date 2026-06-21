@@ -1,0 +1,414 @@
+[00:00] And we are there, we are live, our first day is seminar in computer engineering and we were
+[00:10] catching up here with today's Distinguished Lecture, this is an IEEE Distinguished Lecture
+[00:18] that we have today with Neely Prasad and we were having a good time warming up and learning
+[00:27] about how many things we have some way in common, we have had many connections that we were not
+[00:34] hidden connections in our network of collaborators and we were also learning about some language,
+[00:42] aspects, Neely means also blue, right? And a tool, a tool we import to get a tool in Spanish
+[00:54] and Neely, I don't introduce folks' biographies because they are always so extended and they
+[01:04] can read them out and maybe you want to introduce yourself in the way you prefer. Thanks a lot
+[01:10] for being here today with us and sharing your thoughts on a topic that is very timely thing, AI and
+[01:20] humans collaborating. It's really in our days, we are interacting with AI agents, AI that
+[01:28] don't mean a different aspects of our life, objects, tools, chats and you are going to bring very
+[01:38] interesting aspects so I'm really happy to have this topic at you and meeting you
+[01:45] in the digital life and hopefully soon in person and let me stop sharing and thanks again.
+[01:56] Neely, for being here let's go with your screen sharing. Thank you so much for inviting and I will
+[02:02] try to share my presentation here without delay and well you know you can always shoot a question while
+[02:12] I am talking also and I'm trying to do this, I am not able to make it as a full screen.
+[02:22] Now it works. So basically you know human AI collaboration, I have been talking about this for
+[02:32] some time and as we discussed also like you know quite a shock when I put this as a wireless networking
+[02:41] person as my talk as a DL for Komsak that was I think I surprised and shot some of my global
+[02:49] friends what I was going to do here. So I will talk a bit about ethics and privacy and I will give
+[02:57] also some scary scenarios to all of you and some scary for myself even while I will give some nice
+[03:05] and positive you know ending it with a positive very positive note. Scary is already you know I
+[03:12] don't know if the students have seen the news Google announced that 75% of their software is developed
+[03:21] through AI and the question is do we trust it now. So let's go with that question. I know it's
+[03:31] being recorded but I don't want to go politically anywhere I will be very very sound with my
+[03:37] political comments here. I have been warned by my lawyers and my chairman of the company that I should
+[03:46] not make any political comments today. So I'm warning all of you I'll keep my mouth shut and then
+[03:54] when you have those kind of questions turn it off recording and then I will reply to those
+[04:00] questions. So as just quick I have gone through you know from start up to big industries and
+[04:12] loosen technologies Wi-Fi is one of my babies I've been in operator world starting from Libertel which
+[04:20] was the second largest and then university I've been in academia for many years. So you know I always
+[04:29] stay a professor so that's where the lecture comes and IEEE has been part of my life from
+[04:38] high school. So quite old member here you're talking about not by age but many years of volunteering
+[04:46] service and then start up of course this is something I love to do as an entrepreneur I have always
+[04:52] this idea and I want to bring it to people. So how I make technology good for society that is our
+[05:03] ambition and that's how smart avatar started in 2019. Another reason was my daughter decided she
+[05:10] doesn't like to be in US she moved to Netherlands her home country and so we had to base our company
+[05:19] something closer to her you know one child close to her. So that is in a very quick
+[05:28] my life in work environment of last almost almost 25 years plus so you can see where we are going
+[05:38] and this is what the company is we do fundamental research so academia level because we have your open
+[05:44] commissioner funded projects and we have also we work with the universities we have interns coming in
+[05:52] to work so if some of your students Christian is interested they are most welcome to join our company
+[06:00] to do that. So we do of course production also and you will see a lot of AI products in our
+[06:07] and we have spin-off because of these products and this is based in US the AI company and we have
+[06:15] products which you can download on your phone and use it. I will talk about it later also in my slides
+[06:21] and you can see all the topics where we are going with the corporation with the big industry we have
+[06:26] our own digital twin AI digital twin with security in it and we have also zero trust
+[06:35] platform architecture whatever you call it. So you see I talk like a CEO here to tell about my company
+[06:44] very quickly. So we jump to AI I think most of you know now and as I understand from Christian
+[06:52] students have already done their homework about this so maybe I should ask them to tell me
+[06:58] everyone sitting here am I in the right track here when I talk about you know first phase the
+[07:06] perception AI it was the medical imaging autonomous cameras quality control those kind of things so
+[07:16] I'm I'm talking now as use case because we are not in technology only we need to understand where
+[07:22] it will be used and then we develop the things that's how now the engineers have to think
+[07:29] not when I was studying we did I don't know maybe even Christian and Jefferson they are younger than
+[07:36] me much or via so you know I remember doing 3G a CDMA and a GSM network I was part of the GSM
+[07:49] so you can understand I I went from technology to use case now we are on the other side of the
+[07:56] spectrum we are thinking where will it be used who are our users and then we jump into different
+[08:04] capabilities what is AI going to do where is it going to help us you know is it useful not useful
+[08:13] is it part of our life and I would say yes it is part of our daily life how do we make it smarter
+[08:19] we need to train it and that's where I will go more deeper in my slides talking about where we are
+[08:26] going and how you can help us improve it because that's where I see the young generation you know
+[08:36] working I see through my daughter's eye she is not an engineer she's political science
+[08:42] student graduate she does marketing and strategy for my company and if you
+[08:52] connect with me on LinkedIn you'll find her profile and you'll see what she's talking about you know
+[08:57] using AI and she has products already of her own in AI using AI not understanding how to develop it
+[09:07] but she tells the engineers to make it for her she comes with the concept so what is a generative AI
+[09:15] you have to understand where it transforms and then where is it going to be used creative tools
+[09:23] code generation as I talked about already chat bots I guess you all have used chat bots
+[09:30] you know customer service this is quite normal and I don't like it I can use all the bad words on it
+[09:37] or pardon my friends on that one I can go on about it so enterprise the next one we go in
+[09:46] a genetic AI which is 23 2023 and beyond and then physical AI we are talking now about robotics
+[09:56] and I'll give you some real examples of what is happening I don't know about Europe that much
+[10:03] but I know in Silicon Valley we are already using it we are already testing it
+[10:09] in real life and I will show you one of the examples so human-eyed robots autonomous vehicles you know cars
+[10:19] like without the drivers we all know where we're most I don't know I don't see the such cars
+[10:28] driven in Europe but in Silicon Valley quite it is quite normal when I you know part of my life is
+[10:35] there so I go there and I can use these taxis I'm now driving a Chinese car Lincoln Co
+[10:44] and it feels like I am on an iPhone with wheels so you can understand how much AI and autonomous
+[10:57] vehicle is penetrating into our life so these are some of the use cases you can go on and
+[11:05] tell me more if you see it and I would love to add more on to it so this is something what I see
+[11:11] where it is going to benefit us so if I go to the next slide and you can see the Tesla human-eyed
+[11:20] state of the art capability 2026 what is it doing you know stair climbing it can balance itself
+[11:32] on an uneven terrain manipulation fine motor tasks so even like you know handling eggs that's what
+[11:42] I talk about like how can how good you are in cooking eggs you know I don't know if there are girls
+[11:48] in listening to me you know they check their boyfriends if they are good in cooking eggs then
+[11:53] that's a good boyfriend that's how at least I tested my husband if we could cook you know 25 years
+[12:00] and the age so payload it's basically 15 to 50 kilos and you know carrying it up to 100 kilo
+[12:11] peak in industrial use cases vision it has multiple cameras and if you think of about autonomous
+[12:22] vehicle then it is a lidar and in tactical feedback you know we all talk about the war zone so I will
+[12:31] not do that but yes we are in that direction also an interaction natural language understanding
+[12:39] voice commands this is already there and it is happening so one of the I would say the negative part
+[12:49] is the battery life where still we need to have a lot of research done because he don't want a dead
+[12:58] in four hours so this is the example what I was talking about I I unfortunately cannot put the voice
+[13:10] here but I will just show you the video and this gentleman is my husband and also the
+[13:19] chairman of my company and he is talking to the human eye draw bow at San Jose airport in California
+[13:30] in Bengali his own mother tongue unfortunately we cannot I at the voice is not working I can always
+[13:38] send it out later to you guys and it spoke 100% you know Bengali from Bangladesh which is
+[13:47] bit different than Bengali coming from west part of India so you could it's like Spanish spoken in
+[13:56] Spain and Spanish spoken in Latin America you know that difference you can feel it we had a lot of
+[14:03] fun they enjoyed it and not me and my daughter spoke in Danish and the only thing it didn't understand
+[14:10] was could I get a glass of beer except that it understood everything so of course it's pre-programmed
+[14:18] what to you know what to discuss and where to discuss maybe ethical and privacy related or age
+[14:26] thing because it's in US so first it has to know the age proper age of the person in front
+[14:34] so you can see this so I will not go all the way but this is what we are today
+[14:43] not everywhere in the world but in in California so it's it's quite interesting it just happened
+[14:51] two days ago so it's not farfetched the other thing if you are in Bay Area and Silicon Valley all the
+[15:00] billboards are talking about AI they have AI embedded in them it's changing depending on people who are
+[15:11] driving past on that highway or in that area so it's very very interesting how AI is getting into
+[15:20] our life in our daily life but question is behind it now ethics what are the lawmakers doing what are
+[15:32] the governance behind it the policies behind it privacy all this data which it's collecting what is
+[15:39] happening where is the data going so if you think about those questions and then we will go slowly
+[15:48] to that point so what is happening now where is this kind of you know humanoid AI based
+[15:57] and whatever I mentioned the parameters like ethical privacy all different kinds of security policies
+[16:05] in place forget about security cyber security in there I'm just talking about basic governance
+[16:12] so what kind of industrial reflection we are talking about is 2026 to 2027 very short period just one to
+[16:23] two years I'm talking about is all the automotive and logistic the first movers BMW is already using it
+[16:32] Hyundai is already and Lincoln Co as I mentioned they are already Mercedes Amazon GXOs
+[16:39] they are already using what is their main purpose behind it it's material handling
+[16:48] moving things you know the movement machine tending and visual inspections so you can see a lot
+[16:56] of this heavy duty task which humans were doing has been taken over by the humanoid
+[17:02] price cut you know you can see how cheap it is getting after once we have it tesla target sub you know
+[17:14] it's like a $20,000 and millions of units are being built by 2029 that is the prediction
+[17:25] and what is the scenario where they're going to use it what is the use case I have
+[17:31] mentioned health care super market we need to stock you know these humanites are going to do it
+[17:43] and when we go into hazardous environments you know chemical factories or stuff like that they will
+[17:49] be using you know be used because humans are not there or will be removed so you can already see
+[17:58] how we are getting rid of humans in different places and okay the prediction is 2030-2035
+[18:07] it will go into home it will go into services you know getting into our daily really daily life like
+[18:14] elderly care but I would see it even in my own home we are already using robots to you know vacuum clean
+[18:23] my mom just now has I just installed it and it drove me crazy it took me half an hour to just figure
+[18:30] out how the system works and I was you know literally screaming at it because it was talking to me
+[18:37] and it predicts it uses AI to make a graph of the house where the carpet is where the floor is
+[18:45] how to mop it and how to vacuum clean it and the timing and programming so you can you know you are
+[18:52] thinking this is crazy how it is getting in our daily life but again I will
+[18:58] set back the question where is the data going who is collecting all this information
+[19:07] so social science and humanity now you can see I talked about some of the things I didn't dive
+[19:16] too detailed into technology I'm not going to dive into that but just to give now how this is
+[19:23] going to be you know accepted what is the humanity here what are the naturally you saw a human talking
+[19:32] to a robot but there was no emotion and we love to have emotion we as humans want emotions
+[19:43] in our things so you have to see where we have to put where the work is now empathy so I spoke about
+[19:52] ethics I talked about privacy there and I will go more details into it I now add another
+[19:58] parameter which is called empathy that will make it more humanized so that's coming closer to
+[20:06] becoming more like us because when you smile you want the person across the table across the
+[20:14] counter to smile back at you or maybe a hug you know when you come home and the I don't know
+[20:21] the robot which helps you clean the house or one of the humanites and you just you know
+[20:28] opens the door for you and you want to just get a hug because you didn't have a good day or you had
+[20:33] a very good day so you have to think about this now one of the other parameter is trust do I trust
+[20:42] this system and if I trust it transparency predictability fail safe design
+[20:52] and these are some of the parameters of trust which we need to look into very closely
+[21:00] because what is this transparency something which can be explained AI which is explained for decision
+[21:09] making for visual status indicators we need to make it as transparent as possible
+[21:18] and I can give some examples later about why we need this with this kind of AI and predictable
+[21:26] because we are talking about empathy now we are talking about consistent behavior patterns
+[21:33] and not sudden reactions because that's not what humans do and natural languages you know how many
+[21:42] languages we can do 177 languages so our product on AI we actually cover 77 languages in total
+[21:53] across the globe at this moment but not all because we need native speakers to use it so it can
+[22:04] study and understand more and educate itself and come back again stronger so that's how you have
+[22:10] to think about you know affectionate intelligent as I was saying empathy has to be the emotional
+[22:17] and without deception that is something which I wrote down also in my presentation we don't want
+[22:22] deception there so ethics, safety and governance if you see safety and liability what are the challenges
+[22:35] you know this question has been asked also in past from other technology you know systems networks
+[22:41] autonomous vehicle if it comes on the road who is responsible same thing goes you know AI based
+[22:48] robots digital twin smart houses smart cities all those things who is responsible when something goes wrong
+[23:00] who will the insurance you know how would you claim it back from insurance some of the things are
+[23:07] there already but not everything because the law and governance and politics are not at same speed
+[23:16] as technology so EU certification programs US sector specification healthcare so I'm just talking
+[23:25] about one place but when I say EU there are many countries are all countries in sync do they have
+[23:34] their own solutions also like I live in Netherlands I know that we have that but it was a lesson learned
+[23:43] after mistakes happened and I would like to challenge the students to find out what mistake happened
+[23:49] after using AI algorithm by the government so that would be something which would be a nice
+[23:56] challenge Christian for students to find out privacy you know constant visual audio data collection
+[24:07] homes you know you're using Spotify I can share with my family or my friends whoever and listen to
+[24:15] the same music when I'm driving when you are on you know you can share your directions where you're
+[24:26] going maps you know like I was driving from Netherlands to Denmark I was sharing to my parents and my
+[24:35] family members but I could share it with my friends also but there are other ways also to get it
+[24:42] leaked because not everything is working in our network labor displacement you know risk of job loss
+[24:53] and this is some discussion maybe students can have with my daughter because she is working and
+[25:01] one of her product is called AI job mixer and this is used by AI and more than 35,000 people have been
+[25:11] using it and you can see what are the problems this the young generation is facing now to find job
+[25:21] because of AI a lot of things are being stopped who is looking at their resume before even it reaches
+[25:28] to the right person so if you're applying through LinkedIn what is happening there they are bots at the
+[25:36] end what kind of bots what is happening what are they looking at your resume what are they looking at the
+[25:42] first letter you know front page you're writing about or where you are originally you know originating
+[25:50] from it's biased human biasness is there autonomy and control degree of independent decision-making
+[25:59] that's a big challenge social equity access limited cost potential for surveillance those are the
+[26:08] challenges and on the right most I have written some of the examples of emerging responses those are
+[26:16] still open areas and it's nice to see you know public-private partnership that's a governance what I
+[26:23] have been talking about policy makers you work with them so as a multi-disciplinary table and I will
+[26:34] also show later how you do it what you know how you go around about it so some real stories real harm
+[26:42] deep fake fraud in financial services does anyone know about this story this happened in
+[26:56] if if I'm correct I think it was Hong Kong or Singapore Hong Kong I think so AI generated deep fake
+[27:06] voice and video impersonating the bank CEO's voice or a financial officer's voice that's what happened
+[27:15] and money millions of dollars lost there so you can think what AI without ethics without governance
+[27:25] without privacy protection without policies in place without the government working together with
+[27:32] the engineers this can happen the wrong use of AI algorithm blackmail on health data this also
+[27:41] happened with a lot of patient information loss this can even happen with insurance like you know
+[27:49] questions in US the price of the insurance can go up depending on if you're a smoker heavy drinker
+[27:57] or anything else family you know this leakage the data information can be late or you know cancer
+[28:06] patient or HIV patients those information the very very important data which is belonging only to me
+[28:18] should not be leaked and it can happen and it has happened because of AI I would say one of the
+[28:27] other is cyberbullying and this is across the whole world it's not targeting one country or one
+[28:36] nation or one but cyberbullying happens everywhere you know deep fake news voice impersonation fake
+[28:46] screenshots all age but really for children in schools and lot of suicides have happened
+[28:55] and this is due to AI because AI can copy your voice can take your photos and put it elsewhere also
+[29:06] these are sad stories I'm talking about but this is a fact I can jump this slide and say it doesn't
+[29:17] exist but then I am just saying just you know believe shove it under the carpet or something and walk
+[29:25] away but these are fact of life or even in politics you know fake news articles how many of us listen to
+[29:33] me and you know reels or TikTok or stuff and if we are not smart enough sometimes the news like my
+[29:41] favorite actress from India she's married to an American singer and there was a news about them
+[29:46] getting divorced I saw that I heard it middle of the night while I was just you know heading to bed
+[29:53] the first thing I came out of bed to check really that are they divorced no they are not so how
+[30:00] silly I can be even though I understand there is a technology which can make wrong stories
+[30:06] but a fake news and I still believed it for a few minutes to go and cross check it
+[30:13] so you have to be very smart to understand what is real and what is not real even if you're using AI and I
+[30:22] say please use it as much as you can because it's not going anywhere but you have to be very smart or
+[30:29] even during elections you know be smart and listening to which politician is good or not good before
+[30:38] you decide to vote and this is again everywhere in the world we have to be very smart in doing it we
+[30:47] have to become smarter than we are so based on all the stories I we have to keep an eye on the time I
+[30:57] have many slides so I will jump some now after this a human AI collaboration so ethical guardrail
+[31:06] we need to prioritize humanity ethical framework to guide AI development and deployment
+[31:17] this is a very important that's why it's a first thing I always put out there the guardrail
+[31:23] what are the social values you know we need to preserve them privacy is a cornerstone so
+[31:32] it has to be built in to the system and I have been preaching this from 2000 so it's many many years
+[31:39] now in making and I hope it will really be there and everyone will listen to me and work with me to
+[31:48] do this so safeguard individuals autonomy and prevent misuse of personal information because as I
+[31:55] said and I repeat myself all the time is this data what we are collecting about me about you everything
+[32:05] is online who is collecting it where is it going we don't know it and we always say anything on
+[32:13] internet stays on internet for life or even after my life it will stay there so how do I
+[32:22] make sure that the privacy is there that I as nearly take care of my information and my data
+[32:31] and then the third final one is interdisciplinary collaboration you know across ethics law you see
+[32:39] lawyers are very very important law makers technologists like a policy and holistic we need to also
+[32:48] depending on what application we are talking about which scenario we are talking about which use case
+[32:55] we need even psychologists at the table we need all different you know experts around the
+[33:05] table so we should be discussing in the round table not in a square or rectangular because we need
+[33:11] to face each other and we need to talk the same language in same frequency and understand to build
+[33:19] from start not afterwards not an add-on so the tipping point AI you know is a pervasive integration
+[33:32] healthcare and this is I worked with some doctors and I had a discussion about this and they would
+[33:37] love to have AI in their system but you know where they would like to have it is when they are reading
+[33:44] the documents so one of the doctors which I had this discussion with he is a radiologist in Denmark
+[33:54] and he said in a day he goes to 50 patient documents because he is leading the team
+[34:01] 50 50 in a day imagine how much time he gives there he cannot give more than five minutes or something
+[34:10] he must be skipping through and then picking some and going more you know and then at the end he has to
+[34:16] also have time for the patients so how much time is he doing imagine if I can build a system with AI
+[34:25] with ethics privacy whatever terms he wants into it with all the policies in place
+[34:34] and say okay and empathy remember that is a doctor's thing empathy in place and he goes through that
+[34:43] his documents goes through that all the patients records goes through that and he can pick up faster
+[34:49] and have more time for the patients efficiency that will increase the efficiency so you can see now
+[34:59] that you don't need to build only a network or things like that but as an engineer as a technologist
+[35:07] we can move into different directions also to work with other people so this is a you know global
+[35:14] adaptation for AI this is something which will enhance that's why I kept on saying healthcare
+[35:21] is a very important field if our technology works in that it will work in other directions also
+[35:28] human dignity when we are talking and our information is going around
+[35:39] accountability human control I need my control on my things
+[35:46] and consent I need to give consent to this how do you get that
+[35:52] you know creating scenarios where individually unlawingly the control will be done you know who
+[36:02] is controlling it I have to control my own you have to control your own data so legal framework
+[36:12] you can see now the law is so you can see different aspects I'm talking about so global AI adoption
+[36:20] so it is ethical governance if I move to the next topic for a human dignity it is the legal framework
+[36:28] I have to bring in at the table also a core tension you know this is the major headache
+[36:37] doesn't matter which field you are which what kind of user you are ethical compromises in deployment
+[36:46] integrity creating ethical you know these are all clashing among each other
+[36:56] that's why we need to be very careful in getting what the society needs we need to know our users
+[37:02] very well so I will just jump these slides and this is some of the use cases where we have been
+[37:13] studying and as a we have a product in this area called AI AI medical mixer you can download in
+[37:22] both iOS and Android and you can try it out how it works it is not for as a doctor replacement it
+[37:32] is supporting the doctor and improving you know it is kind of as I say here early diagnostic
+[37:40] so I know what medicine I'm taking and I have to understand you know sometimes I misunderstand
+[37:45] my doctor so how I can question AI and it explains me and it explains and helps me with my dietary
+[37:56] and then I can go back to the doctor and ask questions so it makes both the doctor a healthcare
+[38:03] personnel and mine as a patient very easy and it streamlines all the workflows again you can see
+[38:13] ethical design is needed and it has to be from day one into the system fairness transparency
+[38:22] accountability and ultimately what it is doing is safeguarding the patient because I need to have
+[38:30] trust in the system so surveillance I this is another one I jump these and I will give you this one
+[38:40] this is very interesting because this was while I was talking last year my co-founder chairman
+[38:52] he was building this app for the company so within the 10 minutes of my talk he actually built
+[39:01] this web app to do a task flow for the company and we are using it today so it's quite interesting that
+[39:09] we don't buy any more so how AI is helping non-technical for even me I don't know how to program
+[39:18] I am hardcore electrical electronics engineer so I don't know how to do any programming level so
+[39:26] I love AI to help me out I'm sorry anyone who does programming I'm sorry for you guys really sorry
+[39:35] so as an entrepreneur you can use this because there's no code needed and as I mentioned starting
+[39:44] my presentation already Google's software right through AI 75% of it so if Google like companies can
+[39:55] do it why not ask as an entrepreneur or new entrepreneur so try it out build your own app think about it
+[40:05] check it reach out to me through LinkedIn and we will see how my team you know in software team can
+[40:12] work on it with you so stem dilemma as I was talking about I just slowly moved into it you know
+[40:22] you are not just coding you are not just building a system you're designing the future this is what
+[40:29] my statement is you know emphasizing responsibility make sure it is not biased
+[40:37] because we as humans are very biased we are not very open people and we need to become one and when
+[40:44] we are building AI systems and solutions we need to make sure that the biasness is not there
+[40:51] so you know becoming very proactive in ethical integration preventing unintended biasness as I
+[41:00] said about and aligning with all the values and human dignity maybe discuss with your grand
+[41:08] mothers more and your mothers about these values and you will come back into seeing what we need into
+[41:14] our technology development also I don't know how much time I have now Christian otherwise I
+[41:24] would want to quickly yeah five more minutes so that we can have at least 10 but we cried okay
+[41:31] so I will quickly just show some of the ethical AI design framework and later I can share some of my
+[41:38] slides also it is as I said digital privacy by design so when you start thinking about your
+[41:47] technology remember ethical audits has to be there who are part of who are the stakeholders you know
+[41:57] bias mitigation so risk management has to be in place at every level so privacy risk assessment
+[42:08] risk management bias mitigation you have to make sure you understand and make it clear from start
+[42:17] so these are some of the government works which we have and just recently I think few days ago
+[42:27] EU already said yes to updated EU AI act and I have a link I'm just jumping quickly so
+[42:37] oh yeah here so I have put a link here I can send it later share it with with Christian so
+[42:45] you can see the document what the act is all about which you should understand which it is needed
+[42:54] we need to understand it very clearly what they are talking about where we are going and if it is
+[42:59] not complete how can we get involved to improve it because the government the ministers the
+[43:08] politicians they understand the need of it now so I just go back onto my slides and I'm just saying
+[43:20] this is how the cross disciplinary energy should be you know go back onto the drawing board
+[43:26] legal framework ethical philosophy humanistic insights so you know don't think political science students
+[43:36] don't understand anything believe me they understand more than us nowadays and of course you know
+[43:43] technological expertise all all feel to working together but how do we work in same frequency at the
+[43:52] same round table with these teams or hybrid formation you have to do and finally of course holistic AI
+[43:59] approach that's what is the final you know goal for us how do we put all those parameters which I
+[44:07] have been talking about and I always say bring it into your education system it's like you know back
+[44:17] into students not only behind the computer watching television or iPad but also going out and playing
+[44:24] with the dirt a bit growing their own plants and food and vegetables kind of scenario so bring it back
+[44:32] into your education system civic thinking you know we have forgotten that while we were studying
+[44:40] so how do we bring that to the next generation make you know the young people because of course job
+[44:49] job is a issue for them so how can they maybe become the job givers and not job takers that's one of
+[45:00] our ideas also in my company that how we can make them empowered with that so real world social issues
+[45:09] very very important so when you're building up projects remember to understand the use case
+[45:15] and the users behind it so this I already discussed this I will not talk about and the finally I would
+[45:24] like to conclude my talk today with lead with integrity not just innovation you know there are a lot
+[45:34] of solutions already there of the shelf take it and make it work together but then with the right
+[45:42] people at your table engage with communities and forums push open this open science you know transparent
+[45:50] design as I talked about and ethics law social science and all the others you know law legal people
+[46:01] framework all the government bring them at the table with you when you're talking about AI so that's
+[46:08] that's me that's me in the background so that's it for me question yes thank you a lot
+[46:22] very happy to have this insights you're talking to at this moment in our class because
+[46:32] it resonates a lot with what this class it's a seminars but the students have to do a lot of work
+[46:40] with artificial intelligence tools and one of the things this integration embracing AI into the
+[46:48] classroom means be transparent how do you use it but at the same time think about the quality of
+[46:57] the outputs don't lose them your ability to question this this contents and then be creative they
+[47:08] have to do one final class projects about choosing one seminar topic and they are they have to use
+[47:16] generative AI for for this so I will talk to you more I will also share with you as I promise
+[47:26] what our students have done in pre-homework preparation I was going through through these
+[47:38] their comments and I'm surprised this seminar I think it really hit them
+[47:46] better than others I think they understood well how timely this topic is so I will have selected
+[47:56] a couple of them but we have 36 of these questions and homeworks so you can share it with me it's
+[48:08] no no privacy issue then it will be fun and you know they can reach me also on my LinkedIn or my
+[48:18] personal email what are not of a company email and I love the opportunity to send you students we have
+[48:26] a great international collaboration framework by Sao Paulo Foundation FabBespe so it's a great
+[48:36] opportunity let me I selected yeah this is one that I wanted to bring over to you but before that the
+[48:46] notes I took here okay you you may not use cases one of them that I want to bring you together with
+[48:58] a colleague professor Enic is on elderly care and his team has designed wonderful solutions I really
+[49:07] want to that you guys talk about it the other note that I took is AI I always say it's a tool
+[49:17] yeah it's a it's a weapon yeah so you and you can use it for the good or the bad and you
+[49:25] wrote a perfect examples and everyone can try to think in this way as an analogy of AI as cars
+[49:36] as aircrafts as cameras automated hummers you can use all of this for the good or the bad okay and
+[49:46] the last point that it was it took my attention was an analogy that I feel that we are
+[49:55] facing right now if you remember 10 years ago Europe was with the general data protection
+[50:02] regulation it was about general data just general data was 10 years ago yeah the final regulation
+[50:10] but it started before I think we are going to enter this phase very soon with an AI protection
+[50:18] regulation or something like like the love loves regulation we are we are great not to talk about
+[50:25] politics I know but this is this part of the politics is okay but I had to draw the analogy I can see
+[50:33] many lawyers many cases many lawsuits going around programs of having trusted or not trusted or
+[50:42] misused or bias AI if you are going to enter there right now maybe study
+[50:52] low in your country and be smart and AI and you are in a sweet spot for the next 10 years or so
+[50:59] oh yes oh yes oh yes oh yes you are you know it as I said when I graduated or when I was not
+[51:12] even with the degree I was hired as an engineer but today the engineer is not being hired as an
+[51:20] engineer they are hired as an expert in different fields so if your voice is enough to do multiple
+[51:27] disciplinary things in your education or at least know how to do it and bring it at the table when
+[51:34] you are at the interview or even starting your own company then it is you know you are out there
+[51:45] it's like you cannot say I'm like a question asked to me I think it was in December I was in a
+[51:53] meeting and someone asked me so what is your expertise and I had to scratch my head you know
+[52:00] the days are gone you know you cannot say I am a antenna expert or filer expert or a mac layer expert
+[52:07] or you know among friends we could say okay we have the networking background but
+[52:14] end of the day I'm just simple electrical electronics engineer
+[52:19] give me anything and I'll build it that's what I should be able to say and this is basically the
+[52:25] feedback I want to give to the young generation it's like what is their expertise is everything
+[52:32] it's learn ability to learn and solve new problems you are a problem solver and you will be hard
+[52:39] to solve the next problem not the past problem in the most valuable cases and that's why
+[52:47] also going to after engineering into a master's degree or a PhD brings you new skills
+[52:54] abilities to think in a critical way and let's pick this question from the student number seven
+[53:04] okay so give you the risk of overreliance from AI co-pilot yeah and how do we still keep the
+[53:16] human judgment without how do we design the system so that the human judgment doesn't go weak and
+[53:26] weak over timing decision making just because they rely it's how how in this framework that you
+[53:35] are designed the human judgment is or trained yeah it is it is training the humans now
+[53:44] not the technology anymore as you see you're training the technology as well as you're training the
+[53:49] in the you know the humans now as I mentioned you know like the use case if I say it is a humanoid in my
+[54:00] home but I am training the human I'm not going to sit there and the humanoid is just moving around
+[54:08] but I need to know the right terms to tell them what to do it's like in a when you're using
+[54:16] chat GPT you cannot just write you know write this okay it writes but it doesn't make sense I just made
+[54:27] invitation for my my father's birthday I help my mom and I use chat GPT to design everything but I
+[54:34] have to give the right command okay that's why it's called prompt engineering yes it's an engineering
+[54:41] process that's why the students need to to disclose how was your prompt engineering that's what I
+[54:47] want to see to evaluate you so it's it's like you know back in the days when we were solving our
+[54:54] math integral solve but it could be done in three four times yes steps but we needed we got
+[55:01] our grades when we showed all the steps yeah it's a simple it's the same thing the behavior
+[55:10] the cognitive you know as I said like in my home we don't have television I refuse to have a
+[55:18] television in my home because we are all on phones we are all on technical technical things we are
+[55:24] driving this as I said iPhone on wheels kind of cars you know we are not driving you know shift
+[55:31] cars you know stick shift cars anymore the way I learned it we are driving like you know I don't
+[55:37] even press a button actually the the way my car drives I just click on and off and then it just
+[55:43] stops crazy so but I have to keep awake that's that's the way I have to do it also see yeah you can
+[55:53] see this other question we already commented in a way so sustain exposure to AI shape humans
+[56:02] and the implications for human formation you already go into this point the humans need to be trained
+[56:09] to have this interaction in a healthy way with the AI all right
+[56:14] I see a question about the answer now yeah do you want to comment and close because we are
+[56:25] already at the end so you see homework so in every single YouTube interview you make sure
+[56:34] can you comment on on on this one so AI rebooked smartly everything anticipated so it
+[56:43] reduced and mitigated the impact of this situation but at the same time it didn't have the
+[56:50] impact to hack or to smile back or to understand their feeling so yeah it was a very important
+[57:02] parameter we need to bring so we are already building in my company we are already building such
+[57:08] avatar already so anyone interested most welcome one of the students is from
+[57:18] UC UC Irvine I think UC Irvine I have to think where he comes from and one is actually working in our
+[57:27] office in Netherlands so most welcome if you want to and hopefully we cannot pay because we have
+[57:33] a small starter I will connect you also to another colleague of my department professor Paula
+[57:41] female professor and she has been doing avatar expressions about emotions for many years you will
+[57:49] love her work so I will connect you both as well to edit and others and looking forward to
+[57:57] send you some of our smart students and with that message thank you a lot looking forward to
+[58:08] for a second follow up live hopefully in person in Madrid where I know you are going to visit
+[58:16] colleagues in UC 3M and looking forward to meet you in person and if not we'll have another chance
+[58:22] in the digital world thank you a lot thank you so much yeah thanks maybe thank you thank you so much
+[58:31] everyone thanks and next week we more another seminar bye bye bye see you
