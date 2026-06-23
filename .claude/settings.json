@@ -1,0 +1,6 @@
+{
+  "model": "claude-haiku-4-5",
+  "custom_instructions": {
+    "tex_files": "All Methodology.tex, Abstract.tex, Conclusions.tex changes must follow: (1) max 60 chars/line, (2) humanizer skill for prose, (3) no em dashes, (4) accurate sourcing"
+  }
+}
