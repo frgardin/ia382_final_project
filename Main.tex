@@ -20,6 +20,7 @@
 \usepackage{cite}
 \usepackage{subfiles}
 \usepackage{tikz}
+\usepackage{pdfpages}
 
 \setstretch{1.2}
 \geometry{
@@ -66,6 +67,47 @@
 \renewcommand{\refname}{}
 \vspace{-1.2cm}
 \bibliography{Sections/References}
+
+% ------------------------------------------------------------------------------
+
+\newpage
+\appendix
+
+\includepdf[
+    pages=1,
+    pagecommand={
+        \thispagestyle{plain}
+        \section{Attachments}
+        \label{sec:attachments}
+        \subsection{Claude AI Output}
+        \label{att:claude_privacy_document}
+    },
+    scale=0.78,
+    offset=0 -1.2cm
+]{Privacy_and_Data_Protection_in_AI_Systems.pdf}
+
+\includepdf[
+    pages=2-,
+    pagecommand={},
+    width=\textwidth
+]{Privacy_and_Data_Protection_in_AI_Systems.pdf}
+
+\includepdf[
+    pages=1,
+    pagecommand={
+        \thispagestyle{plain}
+        \subsection{SlidesAI.io Output}
+        \label{att:slidesai_deck}
+    },
+    width=\textwidth,
+    offset=0 -1.2cm
+]{Privacy and Data Protection in AI Systems-slide.pdf}
+
+\includepdf[
+    pages=2-,
+    pagecommand={},
+    width=\textwidth
+]{Privacy and Data Protection in AI Systems-slide.pdf}
 
 % ------------------------------------------------------------------------------
 
