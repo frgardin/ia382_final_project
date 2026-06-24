@@ -38,7 +38,8 @@ This project takes a practical approach. Rather than write an essay, it runs pri
     \item Perplexity gathers research;
     \item Claude synthesizes it;
     \item QuillBot refines the writing;
-    \item SlidesAI.io generates slides.
+    \item ChatGPT meta-prompts the deck and
+    SlidesAI.io renders the slides.
 \end{itemize}
 
 
@@ -46,9 +47,16 @@ The whole process is documented, including every prompt and output \cite{prasad2
 
 \subsection{The Four-Tool Pipeline}
 
-The pipeline works in four stages, like mentioned in the section ~\ref{subsec:project-objective}, 
-it will have four stages: Perplexity for gathering information, Claude to synthesize the findings, QuillBot for paraphrase, 
-and the SlidesAI to create a comprehensive presentation, with this, it is possible to produce the following pipeline diagram:
+The pipeline works in four stages, like
+mentioned in the section
+~\ref{subsec:project-objective}: Perplexity
+for gathering information, Claude to
+synthesize the findings, QuillBot for
+paraphrase, and a presentation step where
+ChatGPT meta-prompts the deck (GPT-5.5, Soft
+Sage template) before SlidesAI renders it.
+With this, it is possible to produce the
+following pipeline diagram:
 
 \begin{figure}[H]
     \centering
@@ -60,10 +68,10 @@ and the SlidesAI to create a comprehensive presentation, with this, it is possib
         slides/.style={stage, fill=orange!12, draw=orange!60},
         arrow/.style={->, very thick, draw=black!50}
     ]
-        \node[perp] (perp) {\textbf{Perplexity} (Research) — Gather cited information};
-        \node[claude, below of=perp, node distance=1.2cm] (claude) {\textbf{Claude API} (Synthesis) — Generate article};
-        \node[quill, below of=claude, node distance=1.2cm] (quill) {\textbf{QuillBot} (Refinement) — Compare styles};
-        \node[slides, below of=quill, node distance=1.2cm] (slides) {\textbf{SlidesAI.io} (Presentation) — Create slides};
+        \node[perp] (perp) {\textbf{Perplexity} (Research): Gather cited information};
+        \node[claude, below of=perp, node distance=1.2cm] (claude) {\textbf{Claude API} (Synthesis): Generate article};
+        \node[quill, below of=claude, node distance=1.2cm] (quill) {\textbf{QuillBot} (Refinement): Compare styles};
+        \node[slides, below of=quill, node distance=1.2cm] (slides) {\textbf{SlidesAI.io} (Presentation, via ChatGPT): Create slides};
 
         \draw[arrow] (perp) -- (claude);
         \draw[arrow] (claude) -- (quill);
