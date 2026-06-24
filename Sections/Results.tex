@@ -1,172 +1,85 @@
 % ---------------------------------
 \section{Results}
 
-\subsection{Research Findings (Perplexity Output)}
+\subsection{Research Findings (Perplexity
+Output)}
 
-Perplexity returned structured research on privacy in AI spanning 15 verified sources. Key findings included:
-
-\begin{itemize}
-    \item \textbf{Privacy Risks}: Data minimization failure, purpose limitation violations, consent bypassing, and unauthorized secondary use of training data are the primary privacy risks in modern AI systems.
-    \item \textbf{Real-World Cases}: The Hong Kong deepfake fraud (2023) and documented patient data blackmail show that AI privacy breaches have immediate financial and social consequences.
-    \item \textbf{Regulatory Status}: The EU AI Act (effective 2024) mandates privacy impact assessments for high-risk AI systems. GDPR (since 2018) establishes baseline data protection but was not designed for modern AI training and fine-tuning practices.
-    \item \textbf{Technical Mechanisms}: Differential privacy (Dwork et al., 2014) and federated learning represent mature approaches to privacy-preserving AI, though adoption remains limited in production systems.
-    \item \textbf{Governance Gap}: Technical privacy mechanisms exist, but governance structures and enforcement mechanisms lag behind. This gap is why Prasad called for interdisciplinary teams of engineers, lawyers, ethicists, and social scientists.
-\end{itemize}
-
----
-
-\subsection{Synthesized Content (Claude API Output)}
-
-The Claude API synthesized the Perplexity research into a 1800-word article structured as follows:
-
-\subsubsection{Section A: Why Privacy Matters in AI}
-
-Privacy is not an afterthought in artificial intelligence.
-As AI systems become embedded in healthcare, criminal justice, employment screening, and financial systems, the stakes for privacy violations grow exponentially.
-When AI misuses personal data, the harm is direct: individuals face discrimination, surveillance, identity theft, and loss of autonomy.
-Beyond individual harm, widespread privacy breaches erode trust in AI systems and delay beneficial deployments.
-This is why Neeli Prasad, speaking to the need for ``guardrails'' in AI, placed privacy at the center of ethical AI development.
-It must be built in from day one.
-
-\subsubsection{Section B: Real Harms and the Cost of Privacy Failure}
-
-The risks are not theoretical.
-In 2023, a Hong Kong bank lost millions when a deepfake video and voice, impersonating the CEO, authorized a fraudulent transfer.
-Healthcare providers and insurance companies have had patient records breached, exposing sensitive data that was then used for blackmail or sold.
-Children have been harassed with AI-generated fake images and voice recordings, with some cases linked to documented suicides.
-These aren't edge cases.
-Without privacy protections built in, AI causes harm.
-
-\subsubsection{Section C: Regulatory Frameworks}
-
-The EU AI Act is the first law written specifically for AI systems.
-It mandates privacy impact assessments for high-risk applications like facial recognition, employment screening, and criminal justice algorithms.
-It requires transparency, explainability, and human oversight.
-The GDPR, passed ten years earlier, covers baseline data protection: data minimization, purpose limitation, explicit consent, and the right to explanation.
-But GDPR wasn't designed for how AI actually works.
-Modern AI combines massive datasets and repurposes them in ways the original data subjects never imagined.
-
-\subsubsection{Section D: Technical Safeguards}
-
-Privacy-by-design principles call for privacy to be engineered into systems from the architecture stage, not bolted on afterward.
-Differential privacy, formalized by Cynthia Dwork in 2014, adds mathematical noise to datasets in a controlled way such that individual records cannot be reverse-engineered while aggregate statistics remain valid.
-Federated learning keeps training data decentralized, avoiding the need to centralize sensitive information.
-These mechanisms work, but adoption remains slow due to performance costs and complexity.
-
-\subsubsection{Section E: Governance and the Role of Human Oversight}
-
-Technical solutions alone are insufficient.
-Privacy protection requires lawyers, ethicists, social scientists, and engineers working together from the start of design.
-Prasad called for this interdisciplinary collaboration.
-Humans can't be passive observers.
-They must understand how AI systems use data.
-They need the ability to override AI decisions.
-And they must exercise real control over personal information.
-Transparency in AI tool use, what Prasad called "prompt engineering" as a discipline, extends to governance too.
-AI systems need to explain their data practices to the people affected by them.
+Perplexity returned structured research
+across more than 10 verified resources. 
+The main privacy risks in modern AI systems were
+data minimization failures, purpose limitation violations,
+consent bypassing, and unauthorized secondary use of training data.
+These risks are intensified by weak consent mechanisms, 
+limited transparency, insecure data-sharing pipelines, and 
+third-party vendors.
+Privacy by Design, differential privacy, federated learning,
+access controls, and continuous audits were identified as 
+important safeguards.
+These key findings of the Perplexity enable the Claude AI to create 
+a comprehensive document to be used by the other AI tools like 
+QuillBot and SlidesAI. 
 
 ---
 
-\subsection{Writing Style Comparison (QuillBot Output)}
+\subsection{Synthesized Content (Claude API
+Output)}
 
-To explore how writing style affects clarity, the following paragraph was processed through QuillBot's three modes:
+Claude AI created a detailed document to be used 
+in other AI tools. However, the statement below 
+probably hallucinated the need to create a “Microsoft Word” 
+document, which was not intended:
 
-\subsubsection{Original (Claude API)}
 \begin{framed}
 \small
-``Privacy is a fundamental right that must be protected in artificial intelligence systems. As AI becomes increasingly embedded in sensitive domains such as healthcare, finance, and criminal justice, the risks of misuse grow exponentially. Data minimization, purpose limitation, and consent mechanisms are core principles that must be enforced through both technical design and regulatory oversight. Without these protections, individuals face risks ranging from discrimination and surveillance to identity theft and blackmail.''
+\texttt{``write a 1500-2000 word
+article on Privacy and Data Protection
+in AI Systems''}
 \end{framed}
 
-\subsubsection{Standard Mode (QuillBot)}
-\begin{framed}
-\small
-``Safeguarding privacy is essential in AI systems. The integration of AI into important sectors including healthcare, financial services, and the justice system escalates the likelihood of data abuse. Key protections—reducing data collection, limiting use to stated purposes, and obtaining consent—must be implemented via both system design and regulation. The absence of such measures exposes people to threats including prejudice, tracking, fraud, and extortion.''
-\end{framed}
 
-\subsubsection{Formal Mode (QuillBot)}
-\begin{framed}
-\small
-``The protection of privacy constitutes a fundamental imperative within artificial intelligence systems. Given the expanding deployment of artificial intelligence technologies in sensitive domains—including healthcare provision, financial services, and criminal justice administration—the potential for data misuse is amplified considerably. Data minimization principles, purpose limitation doctrines, and consent-based governance structures constitute essential safeguards that necessitate implementation through both technical architecture and regulatory frameworks. Absent such protections, individuals encounter heightened exposure to discrimination, surveillance, identity fraud, and coercive exploitation.''
-\end{framed}
+For demonstration and research purposes, 
+it was better to keep this error.
 
-\subsubsection{Analysis}
-\begin{itemize}
-    \item \textbf{Original}: Balanced complexity; suitable for academic but not overly formal; accessible to the target audience (engineering students).
-    \item \textbf{Standard}: More concise (70 words vs.\ 78); simplified vocabulary; strongest choice for outreach or executive summaries.
-    \item \textbf{Formal}: Increased complexity and latinate vocabulary; 85 words; likely appropriate for peer-reviewed publication but potentially reduces accessibility for undergraduates.
-\end{itemize}
+The problem with this kind of document generation 
+is the number of tokens spent in other AI tools, 
+such as ChatGPT. These tools need to parse the 
+whole document to extract the relevant content, 
+which consumes more tokens than necessary. 
+A better format would be Markdown. 
+Therefore, next time, the prompt should be more 
+specific about the expected output format.
+---
 
-All three convey the same core message. We kept the Original (Claude API) version because it's precise and clear enough for engineering students to understand.
+\subsection{Writing Style Comparison
+(QuillBot Output)}
+
+To see how writing style affects clarity,
+one paragraph from the Claude output was run
+through QuillBot. Only the Standard mode was
+available, since the free tier locks Formal
+and Creative behind a subscription, so the
+comparison is limited to the original
+against a single rewrite.
 
 ---
 
-\subsection{Presentation Output (SlidesAI.io)}
+\subsection{Presentation Output
+(SlidesAI.io)}
 
-SlidesAI.io generated a 9-slide presentation deck with the following structure:
-
-\begin{enumerate}
-    \item \textbf{Title Slide}: ``Privacy and Data Protection in AI Systems''
-    \item \textbf{Agenda}: Overview of the 5 main sections
-    \item \textbf{Why Privacy Matters}: Key statistics on data breaches, cost of privacy failures
-    \item \textbf{Real-World Cases}: Hong Kong deepfake fraud, patient data breaches, cyberbullying
-    \item \textbf{Regulatory Landscape}: GDPR and EU AI Act requirements and timelines
-    \item \textbf{Technical Safeguards}: Privacy-by-design, differential privacy, federated learning
-    \item \textbf{Governance and Transparency}: Interdisciplinary collaboration, human oversight
-    \item \textbf{Key Takeaways}: Privacy is foundational, requires both technical and governance solutions
-    \item \textbf{Conclusion Slide}: Call to action for responsible AI development
-\end{enumerate}
-
-The presentation was generated in approximately 12 minutes and required no manual editing. The tool automatically selected professional typography and maintained consistent branding across slides. The output is suitable for classroom presentation or public dissemination.
-
----
-
-\subsection{Comparative Analysis: Tool Quality and Efficiency}
-
-\begin{table}[h!]
-\centering
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\textbf{Tool} & \textbf{Output Quality} & \textbf{Execution Time} & \textbf{Cost} & \textbf{Suitability} \\
-\hline
-Perplexity & 4/5 & 12 min & Free & Research foundation \\
-Claude API & 5/5 & 4 min & Free & Primary synthesis \\
-QuillBot & 3/5 & 9 min & Free (limited) & Style exploration \\
-SlidesAI.io & 3.5/5 & 12 min & Free (basic) & Rapid presentation \\
-\hline
-\end{tabular}
-\caption{Comparative quality and efficiency assessment. Quality rated on accuracy, completeness, and relevance (1--5 scale).}
-\end{table}
-
-\subsubsection{Quality Assessment}
-
-\begin{itemize}
-    \item \textbf{Perplexity}: High quality in source curation and citation; minor limitation in search depth without premium subscription.
-    \item \textbf{Claude API}: Highest overall quality; synthesized content was coherent, well-structured, and demonstrated deep understanding of both technical and governance dimensions of privacy.
-    \item \textbf{QuillBot}: Effective for style exploration but limited by free-tier word count (125 words per paraphrase); required multiple passes for longer text.
-    \item \textbf{SlidesAI.io}: Generated professionally formatted output but offered limited customization; best used for rapid prototyping rather than final publication materials.
-\end{itemize}
-
-\subsubsection{Efficiency}
-
-The complete pipeline (research → synthesis → refinement → presentation) was executed in approximately 45 minutes of active time. The combination of free and freemium tools made the process accessible to students without budget constraints. Total cost: \$0.
-
-\subsubsection{Observed Bottlenecks}
-
-\begin{itemize}
-    \item QuillBot's 125-word limit required splitting longer paragraphs into multiple paraphrase operations.
-    \item SlidesAI.io's template library limited design flexibility for specialized content (e.g., mathematical formulas, detailed diagrams).
-    \item Perplexity's free tier returned 3--5 sources per query; premium versions would provide more comprehensive coverage.
-\end{itemize}
+For the deck, ChatGPT was used first as a
+meta-prompting step: GPT-5.5 generated the
+SlidesAI prompt and suggested templates, of
+which the Soft Sage one was chosen, and that
+prompt was then handed to SlidesAI.io.
+SlidesAI produced a 10-slide presentation
+covering the title, context, the main
+problem, key concepts, the approach, the
+main findings, supporting examples from the
+source, implications, practical takeaways,
+and a conclusion. It ran in about ten
+minutes, selected typography and images on
+its own, and needed no manual editing, which
+makes it suitable for classroom use or wider
+dissemination.
 
 ---
-
-\subsection{Pipeline Effectiveness}
-
-Running multiple tools in sequence worked.
-Perplexity gathered credible research.
-Claude synthesized it into a coherent narrative.
-QuillBot showed how changing writing style affected clarity.
-SlidesAI.io generated slides quickly.
-No single tool did everything.
-The value came from combining them.
-Prasad made this point: future AI practitioners need to be problem solvers who can combine multiple tools and disciplines.
