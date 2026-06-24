@@ -3,36 +3,50 @@
 
 \subsection{Background: Neeli Prasad's Seminar on Human-AI Collaboration}
 
-Neeli Prasad's IEEE Distinguished Lecture walked through three phases of AI: 
-perception AI (medical imaging, autonomous vision systems), generative AI 
-(large language models, code generation), and physical AI (humanoid robots).
-She said ethics, privacy, and governance must be built in from the start 
+Neeli Prasad's IEEE Distinguished Lecture
+walked through three phases of AI: perception
+AI (medical imaging, autonomous vision
+systems), generative AI (large language
+models, code generation), and physical AI
+(humanoid robots). She said ethics, privacy,
+and governance must be built in from the start
 \cite{prasad2026seminar}.
 
-She gave examples of what happens when privacy fails, for examples, she mentioned that
-a Hong Kong bank lost millions in a deepfake fraud where AI impersonated a CEO's voice and video, 
-patient records have been leaked and used for blackmail, and finally,
-images and audio of minors have been faked to harass them, linked to documented suicides.
-Without privacy protection, AI can cause real damage.
+She gave examples of what happens when privacy
+fails. For example, a Hong Kong bank lost
+millions in a deepfake fraud where AI
+impersonated a CEO's voice and video, patient
+records have been leaked and used for
+blackmail, and images and audio of minors have
+been faked to harass them, linked to
+documented suicides. Without privacy
+protection, AI can cause real damage.
 
 \subsection{Why Privacy in AI Systems}
 
-The topic feels urgent right now,
-the EU updated the AI Act in 2024 \cite{eu_ai_act_2024},
-GDPR was 2016 \cite{gdpr2016}.
+The topic feels urgent right now: the EU
+updated the AI Act in 2024
+\cite{eu_ai_act_2024}, while GDPR dates to 2016
+\cite{gdpr2016}.
 
-That ten-year lag suggests AI privacy law is moving faster now, so 
-anyone entering engineering should know this, it's not optional.
+That eight-year gap suggests AI privacy law is
+moving faster now, so anyone entering
+engineering should know it is not optional.
 
-Prasad also pushed for bringing different disciplines together, where privacy is not just a 
-technical issue, so for this type of task you need not only engineers, but also lawyers, ethicists,
-psychologists in the room at once, thinking about consent, data ownership, surveillance,
+Prasad also pushed for bringing different
+disciplines together, since privacy is not
+just a technical issue: the work needs not only
+engineers but also lawyers, ethicists, and
+psychologists in the room at once, thinking
+about consent, data ownership, surveillance,
 labor displacement, and human dignity.
 
 \subsection{Project Objective}
 \label{subsec:project-objective}
 
-This project takes a practical approach. Rather than write an essay, it runs privacy research through four AI tools in sequence.
+This project takes a practical approach.
+Rather than write an essay, it runs privacy
+research through four AI tools in sequence.
 
 \begin{itemize}
     \item Perplexity gathers research;
@@ -77,17 +91,20 @@ following pipeline diagram:
         \draw[arrow] (claude) -- (quill);
         \draw[arrow] (quill) -- (slides);
     \end{tikzpicture}
-    \caption{The four-stage pipeline: Perplexity (research) → Claude API (synthesis) → QuillBot (refinement) → SlidesAI.io (presentation)}
+    \caption{The four-stage pipeline: Perplexity (research) → Claude API (synthesis) → QuillBot (refinement) → SlidesAI.io (presentation).}
     \label{fig:pipeline}
 \end{figure}
 
 \subsection{Document Structure}
 
-In the next sections you will find more information of the process adopted inside each step
-to reach the objectives. In Section 2, this work covers the detailed prompts, settings, 
-and execution for each tool. For the Section 3, it shows the actual outputs and compares their 
-quality and efficiency. And finally, the Section 4 concludes with what was learned and connects 
-back to Prasad's themes: transparency and governance in human-AI collaboration.
+The next sections detail the process adopted at
+each step. Section 2 covers the prompts,
+settings, and execution for each tool, Section
+3 shows the actual outputs and compares their
+quality and efficiency, and Section 4 concludes
+with what was learned and connects back to
+Prasad's themes of transparency and governance
+in human-AI collaboration.
 
 
 % Already rewrited
